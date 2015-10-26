@@ -1,1 +1,0 @@
-cmd_/home/bigwaves/ldd3/scull/scull.ko := ld -r -m elf_i386 -T /sources/linux-2.6.37/scripts/module-common.lds --build-id  -o /home/bigwaves/ldd3/scull/scull.ko /home/bigwaves/ldd3/scull/scull.o /home/bigwaves/ldd3/scull/scull.mod.o
