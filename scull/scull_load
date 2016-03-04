@@ -7,6 +7,8 @@ mode="664"
 # Group: since distributions do it differently, look for wheel or use staff
 if grep -q '^staff:' /etc/group; then
     group="staff"
+elif grep -q '^bigwaves:' /etc/group; then
+    group="bigwaves"
 else
     group="wheel"
 fi
